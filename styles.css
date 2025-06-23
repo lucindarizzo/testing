@@ -203,6 +203,20 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+.flight-legs {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.flight-legs h3 {
+  flex: 1 1 45%;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .cover-content h1 {
