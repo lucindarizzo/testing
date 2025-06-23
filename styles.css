@@ -15,7 +15,7 @@ body {
 /* Header */
 header {
   background: linear-gradient(90deg, #009246, #ffffff, #ce2b37); /* Italian flag gradient */
-  color: #fff;
+  color: green;
   text-align: center;
   padding: 2rem 1rem;
   font-size: 1.5rem;
