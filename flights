@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flight Details – Rizzo Family Trip</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #3f51b5;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #3f51b5;
+      margin-top: 1.5rem;
+    }
+    .flight {
+      background: #eef;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    .flight p {
+      margin: 0.4rem 0;
+    }
+    a {
+      text-decoration: none;
+      color: #3f51b5;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✈️ Flight Details</h1>
+    <p>Rizzo Family Trip to Italy – 2025</p>
+  </header>
+
+  <div class="container">
+
+    <section class="flight">
+      <h2>Departure Flight</h2>
+      <p><strong>Airline:</strong> Singapore Airlines</p>
+      <p><strong>Flight Number:</strong> DL1234</p>
+      <p><strong>Date:</strong> June 30, 2025</p>
+      <p><strong>From:</strong> JFK International Airport (New York)</p>
+      <p><strong>To:</strong> Fiumicino Airport (Rome, Italy)</p>
+      <p><strong>Departure Time:</strong> 7:00 PM</p>
+      <p><strong>Arrival Time:</strong> 9:15 AM (next day)</p>
+      <p><strong>Check-in Info:</strong> Terminal 4, Gate B12</p>
+    </section>
+
+    <section class="flight">
+      <h2>Return Flight</h2>
+      <p><strong>Airline:</strong> Delta Airlines</p>
+      <p><strong>Flight Number:</strong> DL5678</p>
+      <p><strong>Date:</strong> July 10, 2025</p>
+      <p><strong>From:</strong> Fiumicino Airport (Rome, Italy)</p>
+      <p><strong>To:</strong> JFK International Airport (New York)</p>
+      <p><strong>Departure Time:</strong> 11:00 AM</p>
+      <p><strong>Arrival Time:</strong> 2:30 PM</p>
+      <p><strong>Check-in Info:</strong> Terminal 3, Gate C9</p>
+    </section>
+
+    <p><a href="index.html">← Back to Home</a></p>
+
+  </div>
+
+</body>
+</html>
