@@ -228,3 +228,35 @@ footer {
     padding: 1rem;
   }
 }
+.itinerary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.day-card {
+  background: #ffffff;
+  border: 2px solid #009246;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.day-card:hover {
+  transform: translateY(-5px);
+}
+
+.day-card h3 {
+  color: #ce2b37;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.day-card p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
