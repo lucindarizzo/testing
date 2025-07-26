@@ -228,37 +228,26 @@ footer {
     padding: 1rem;
   }
 }
-.itinerary-horizontal {
+
+.day-cards {
   display: flex;
-  gap: 1.5rem;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
-  margin-top: 1rem;
 }
 
 .day-card {
-  background: #fff;
-  border: 2px solid #009246; /* Italian green */
+  flex: 1 1 calc(50% - 1rem); /* 2 cards per row */
+  background-color: #fff;
+  padding: 1rem;
   border-radius: 12px;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
-  width: 240px;
-  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  min-width: 280px;
 }
 
-.day-card:hover {
-  transform: translateY(-4px);
+@media (max-width: 768px) {
+  .day-card {
+    flex: 1 1 100%; /* Stack on small screens */
+  }
 }
 
-.day-card h3 {
-  color: #ce2b37; /* Italian red */
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.day-card p {
-  margin: 0.3rem 0;
-  color: #333;
-  font-size: 1rem;
-}
