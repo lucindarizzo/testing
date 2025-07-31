@@ -225,11 +225,12 @@ ul {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.day-card h3 {
-  background: #ffcc80;
+day-card h3 {
+  background: #b84c35; /* Terracotta red */
   padding: 0.5rem;
   border-radius: 8px;
   text-align: center;
+  color: white; /* Make text pop */
 }
 
 .day-card table {
@@ -241,7 +242,7 @@ ul {
 .day-card th {
   text-align: left;
   padding: 0.4rem;
-  background: #ffe0b2;
+  background: #e6b8a2; /* Soft beige-pink */
 }
 
 .day-card td {
