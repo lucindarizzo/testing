@@ -229,25 +229,52 @@ footer {
   }
 }
 
-.day-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+
+}
+.calendar-itinerary {
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
 }
 
 .day-card {
-  flex: 1 1 calc(50% - 1rem); /* 2 cards per row */
-  background-color: #fff;
-  padding: 1rem;
+  background: #f9f9f9;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  min-width: 280px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) {
-  .day-card {
-    flex: 1 1 100%; /* Stack on small screens */
-  }
+.day-card h3 {
+  background: #ffcc80;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
 }
+
+.day-card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.day-card th {
+  text-align: left;
+  padding: 0.4rem;
+  background: #ffe0b2;
+}
+
+.day-card td {
+  padding: 0.4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.day-card tr:last-child td {
+  border-bottom: none;
+}
+
 
