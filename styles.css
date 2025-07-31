@@ -1,4 +1,6 @@
-/* Base Reset & Font */
+/* =========================
+   Base Reset & Font
+========================= */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +14,9 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+/* =========================
+   Header
+========================= */
 header {
   background: linear-gradient(90deg, #009246, #ffffff, #ce2b37); /* Italian flag gradient */
   color: green;
@@ -22,7 +26,9 @@ header {
   font-weight: bold;
 }
 
-/* Navigation Bar */
+/* =========================
+   Navigation Bar
+========================= */
 nav {
   background-color: #ffffff;
   padding: 1rem 0;
@@ -47,13 +53,12 @@ nav a:hover {
   border-bottom: 2px solid #ce2b37;
 }
 
-/* Dropdown container */
+/* Dropdown Menu */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown content */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -62,11 +67,10 @@ nav a:hover {
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-  z-index: 1;
   border-radius: 4px;
+  z-index: 1;
 }
 
-/* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -75,18 +79,19 @@ nav a:hover {
   display: block;
   padding: 0.5rem 1rem;
   color: #333;
-  text-align: left;
 }
 
 .dropdown-content a:hover {
   background-color: #f0f0f0;
 }
 
-/* Cover Section */
+/* =========================
+   Cover Section
+========================= */
 .cover {
   position: relative;
   height: 300px;
-  background: linear-gradient(135deg, #009246, #ffffff, #ce2b37); /* Italy flag colors */
+  background: linear-gradient(135deg, #009246, #ffffff, #ce2b37);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,8 +126,9 @@ nav a:hover {
   color: black;
 }
 
-
-/* Main Content */
+/* =========================
+   Main Container
+========================= */
 .container {
   max-width: 900px;
   margin: 3rem auto;
@@ -132,7 +138,6 @@ nav a:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
-/* Sections */
 section {
   margin-bottom: 2.5rem;
 }
@@ -157,17 +162,16 @@ ul {
   list-style: disc;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #eeeeee;
-  color: #666;
-  font-size: 0.95rem;
-  margin-top: 3rem;
-  border-top: 1px solid #ccc;
+/* =========================
+   Destination Thumbnails
+========================= */
+.destination-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
-/* Destinations section styles */
+
 .destination-item {
   text-align: center;
   text-decoration: none;
@@ -186,7 +190,6 @@ footer {
 .destination-item img {
   width: 100%;
   border-radius: 50%;
-  height: auto;
 }
 
 .destination-item p {
@@ -195,42 +198,15 @@ footer {
   font-size: 1rem;
 }
 
-.destination-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
-
 .destination-item:link,
 .destination-item:visited {
   color: inherit;
   text-decoration: none;
 }
 
-/* Trip Dates */
-#Trips\ Dates p {
-  margin-bottom: 0.5rem;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .cover-content h1 {
-    font-size: 2rem;
-  }
-
-  nav a {
-    margin: 0 10px;
-    font-size: 0.9rem;
-  }
-
-  .container {
-    padding: 1rem;
-  }
-}
-
-
-}
+/* =========================
+   Calendar Itinerary
+========================= */
 .calendar-itinerary {
   margin: 2rem auto;
   max-width: 1200px;
@@ -277,4 +253,38 @@ footer {
   border-bottom: none;
 }
 
+/* =========================
+   Footer
+========================= */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #eeeeee;
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+  border-top: 1px solid #ccc;
+}
 
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 768px) {
+  .cover-content h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .destination-item {
+    width: 100%;
+    max-width: none;
+  }
+}
