@@ -1,8 +1,8 @@
-backend:
-  name: github
-  repo: lucindarizzo/Italy-2025
-  branch: main
 
+backend:
+  name: git-gateway
+  branch: main
+  
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
