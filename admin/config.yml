@@ -1,1 +1,18 @@
-repo: lucindarizzo/Italy-2025
+backend:
+  name: github
+  repo: YOUR-USERNAME/YOUR-REPO
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
