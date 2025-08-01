@@ -209,34 +209,38 @@ ul {
 .travel-overview {
   margin: 2rem auto;
   max-width: 900px;
+  text-align: center; /* Center heading */
 }
 
 .travel-overview h2 {
-  text-align: center;
   color: #b84c35; /* Italian terracotta */
   margin-bottom: 1rem;
 }
 
+.table-wrapper {
+  display: flex;
+  justify-content: center; /* Center the table */
+}
+
 .travel-overview table {
-  width: 100%;
   border-collapse: collapse;
   font-size: 1rem;
   background: white;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 2px solid #ddd; /* Outer border */
+}
+
+.travel-overview th,
+.travel-overview td {
+  padding: 0.8rem;
+  border: 1px solid #ccc; /* Grid lines */
 }
 
 .travel-overview th {
   background-color: #009246; /* Italian green */
   color: white;
-  padding: 0.8rem;
-  text-align: left;
-}
-
-.travel-overview td {
-  padding: 0.8rem;
-  border-bottom: 1px solid #ddd;
 }
 
 .travel-overview tr:nth-child(even) {
@@ -246,6 +250,7 @@ ul {
 .travel-overview tr:hover {
   background-color: #f1f1f1;
 }
+
 
 /* =========================
    Calendar Itinerary
