@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR-USERNAME/YOUR-REPO
+  repo: lucindarizzo/Italy-2025
   branch: main
 
 media_folder: "assets/uploads"
