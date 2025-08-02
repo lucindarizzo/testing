@@ -1,46 +1,69 @@
 ---
 layout: default
-title: "Venice – Rizzo Family Trip 2025"
-header: "Venice 🇮🇹"
-subheader: "Rizzo Family Trip — August 2025"
+title: "Venice 🇮🇹"
 ---
-<section id="overview">
-  <h2>📝 Overview</h2>
-  <p>Venice, the floating city of canals and bridges, offers a magical experience unlike anywhere else. We'll enjoy gondola rides, strolls through charming alleys, historic architecture, and delicious Venetian cuisine. Perfect for photography, shopping, and relaxing by the water.</p>
-</section>
 
-<section id="stay">
-  <h2>🏨 Stay in Venice</h2>
-  <p><strong>Check-In:</strong> Saturday 9 August @ 1:00 PM</p>
-  <p><strong>Check-Out:</strong> Wednesday 13 August @ 10:00 AM</p>
-  <p>5 Days, 4 Nights</p>
-  <p><strong>Stay: </strong><a href="https://www.airbnb.com.au/rooms/4012810?source_impression_id=p3_1750653135_P3IOO3U8k9Arrji8" target="_blank">Luxury house canal view, terrace</a></p>
-  <p><strong>Address: </strong><a href="https://maps.apple.com/?address=Cannaregio%205513,%20Calle%20Pasqualigo,%2030121%20Venice,%20Italy&ll=45.440450,12.339207&q=Cannaregio%205513,%20Calle%20Pasqualigo" target="_blank">Cannaregio 5513, Venice, Veneto 30121, Italy</a></p>
-</section>
+## 📝 Overview
+Venice, the floating city of canals and bridges, offers a magical experience unlike anywhere else.  
+We'll enjoy gondola rides, strolls through charming alleys, historic architecture, and delicious Venetian cuisine.
 
-<section id="travel">
-  <h2>🚆 Travel</h2>
-  <p><strong>Arrival:</strong> Aug 9 – Train to Udine, Arrives 2:00 PM | 1 hours 50 minutes<br>
-  Catch a water Taxi to the accommodation </p> 
-  <p><strong>Departure:</strong> Aug 13 – Train to Milan, Leaves 11:48 AM | 3 hours 57 minutes</p>
-</section>
+---
 
-<section class="calendar-itinerary">
-  <h2>🗓️ Itinerary</h2>
+## 🏨 Stay in Venice
+- **Check-In:** Saturday 9 August @ 1:00 PM
+- **Check-Out:** Wednesday 13 August @ 10:00 AM
+- **Duration:** 5 Days, 4 Nights
+- **Stay:** [Luxury house canal view, terrace](https://www.airbnb.com.au/rooms/4012810?source_impression_id=p3_1750653135_P3IOO3U8k9Arrji8)
+- **Address:** [Cannaregio 5513, Venice, Veneto 30121, Italy](https://maps.apple.com/?address=Cannaregio%205513,%20Calle%20Pasqualigo,%2030121%20Venice,%20Italy&ll=45.440450,12.339207&q=Cannaregio%205513,%20Calle%20Pasqualigo)
 
-  <div class="calendar-grid">
-    <!-- Day 1 -->
-    <div class="day-card">
-      <h3>Day 1 (Sat 9 Aug)</h3>
-      <table>
-        <tr><th>Time</th><th>Activity</th></tr>
-        <tr><td>10:00</td><td>Arrive in Venice & check into hotel</td></tr>
-        <tr><td>14:00</td><td>Explore canals & city streets</td></tr>
-        <tr><td>17:00</td><td>Gondola ride</td></tr>
-        <tr><td>19:00</td><td>Dinner in Old Town</td></tr>
-      </table>
-    </div>
+---
 
-    <!-- Other days similarly ... -->
-  </div>
-</section>
+## 🚆 Travel
+- **Arrival:** Aug 9 – Train from Udine, Arrives 2:00 PM (1h 50m), water taxi to accommodation  
+- **Departure:** Aug 13 – Train to Milan, Leaves 11:48 AM (3h 57m)
+
+---
+
+## 🗓️ Itinerary
+
+### **Day 1 (Sat 9 Aug)**
+| Time  | Activity |
+|-------|----------|
+| 10:00 | Arrive in Venice & check in |
+| 14:00 | Explore canals & city streets |
+| 17:00 | Gondola ride |
+| 19:00 | Dinner in Old Town |
+
+### **Day 2 (Sun 10 Aug)**
+| Time  | Activity |
+|-------|----------|
+| 09:00 | Day trip to Matrosica |
+| 12:30 | Lunch with relatives |
+| 15:00 | Explore town |
+| 19:00 | Return to Venice |
+
+### **Day 3 (Mon 11 Aug)**
+| Time  | Activity |
+|-------|----------|
+| 08:15 | Meet for Murano & Burano Tour |
+| 08:30 | Depart for Murano |
+| 09:30 | Arrive in Murano |
+| 11:10 | Depart for Burano |
+| 11:45 | Arrive in Burano |
+| 13:15 | Return to Venice |
+| 14:05 | Arrive back in Venice |
+
+### **Day 4 (Tue 12 Aug)**
+| Time  | Activity |
+|-------|----------|
+| 09:00 | St. Mark’s Basilica |
+| 11:00 | Doge’s Palace |
+| 15:00 | Shopping & exploring |
+| 19:00 | Local seafood dinner |
+
+### **Day 5 (Wed 13 Aug)**
+| Time  | Activity |
+|-------|----------|
+| 08:30 | Breakfast at café |
+| 10:00 | Last walk along canals |
+| 12:00 | Check-out & travel to Milan |
