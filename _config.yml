@@ -1,0 +1,30 @@
+title: "Rizzo Family Trip 2025"
+description: "Travel itinerary, stays, and activities for our Italy trip."
+baseurl: "" # Leave empty for user.github.io root, set to "/repo-name" if in a repo
+url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
+
+theme: minima # Optional built-in theme (you can still use your own layout)
+
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: "" # Applies to all files
+      type: "pages"
+    values:
+      layout: "default"
