@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Google Sheets Data Table</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Your existing CSS -->
+</head>
+<body>
+
+<h1>Live Data from Google Sheets</h1>
+
+<table id="sheet-data">
+  <thead></thead>
+  <tbody></tbody>
+</table>
+
+<script>
+  // Your published sheet's CSV export link
+  const sheetCsvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPDqd4H2v1X1CDpYCp-dCqGSea3DqVTuD71PZG2dSVPaUfIR3X6OkOlCqRv14Yno2ufvIpgdSkCFZl/pub?output=csv";
+
+  fetch(sheetCsvUrl)
+    .then(response => response.text())
+    .then(csvText => {
+      const rows = csvText.trim().split("\n").map(row => row.split(","));
+      
+      // Build table headers
+      const thead = document.querySelector("#sheet-data thead");
+      const headerRow = document.createElement("tr");
+      rows[0].forEach(header => {
+        const th = document.createElement("th");
+        th.textContent = header;
+        headerRow.appendChild(th);
+      });
+      thead.appendChild(headerRow);
+
+      // Build table body
+      const tbody = document.querySelector("#sheet-data tbody");
+      rows.slice(1).forEach(row => {
+        const tr = document.createElement("tr");
+        row.forEach(cell => {
+          const td = document.createElement("td");
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    })
+    .catch(err => {
+      console.error("Error loading Google Sheet data:", err);
+      document.querySelector("#sheet-data tbody").innerHTML = 
+        `<tr><td colspan="100%">Error loading data</td></tr>`;
+    });
+</script>
+
+</body>
+</html>
