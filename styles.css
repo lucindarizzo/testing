@@ -252,11 +252,9 @@ ul {
 }
 
 /* =========================
-   Google Sheets Live Data Table Styling
+   Google Sheets Live Data Table - Full Width
 ========================= */
 #sheet-data {
-  max-width: 900px;
-  margin: 2rem auto;
   width: 100%;
   border-collapse: collapse;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -290,12 +288,12 @@ ul {
   background-color: #f1f1f1;
 }
 
-/* Responsive: allow horizontal scroll on small screens */
+/* Make table scrollable horizontally if needed */
 .table-container {
+  width: 100%;
   overflow-x: auto;
-  padding: 0 1rem;
+  padding: 0;
 }
-
 
 
 /* =========================
