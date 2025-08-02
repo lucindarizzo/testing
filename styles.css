@@ -250,22 +250,52 @@ ul {
 .travel-overview tr:hover {
   background-color: #f1f1f1;
 }
-table {
-  border-collapse: collapse;
+
+/* =========================
+   Google Sheets Live Data Table Styling
+========================= */
+#sheet-data {
+  max-width: 900px;
+  margin: 2rem auto;
   width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 2px solid #ddd;
 }
-thead th {
-  background-color: #f4f4f4;
+
+#sheet-data thead th {
+  background-color: #009246; /* Italian green */
+  color: white;
+  padding: 0.8rem;
   text-align: left;
-  padding: 8px;
+  font-weight: 600;
+  border: 1px solid #ccc;
 }
-tbody td {
-  border-top: 1px solid #ddd;
-  padding: 8px;
+
+#sheet-data tbody td {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  color: #333;
 }
-tbody tr:hover {
+
+#sheet-data tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
+
+#sheet-data tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive: allow horizontal scroll on small screens */
+.table-container {
+  overflow-x: auto;
+  padding: 0 1rem;
+}
+
 
 
 /* =========================
